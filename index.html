@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
+    <title>New Tab</title>
+</head>
+
+<style>
+
+    .recent {
+        height: 92px;
+        width: 112px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .recent:hover {
+        background-color: whitesmoke;
+    }
+    .logoCon {
+        height: 50px;
+        width: 50px;
+        background-color: rgb(238, 236, 236);
+        border-radius: 25px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        align-self: center;
+    }
+    p {
+        align-self: center;
+        font-size: smaller;
+        font-family: sans-serif;
+        margin-block-start: 2em;
+        margin-block-end: 0.5em;
+    }
+   
+    #recentCon {
+        height: 224px;
+        width: 560px;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .mainCon {
+        margin-top: 170px;
+        margin-left: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .form {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+        height: 45px;
+        width: 500px;
+        border-radius: 25px;
+        box-shadow: 4px 4px 2px rgb(235, 233, 233);
+        align-content: center;
+        align-items: center;
+    }
+    input {
+        width: 400px;
+        height: 25px;
+        border: none;
+        align-self: center ;
+    }
+    .fa-plus {
+        font-size: 20px;
+    }
+    .fa-magnifying-glass, .fa-microphone {
+        color: rgb(175, 175, 175);
+    }
+</style>
+<body>
+    <div class="mainCon">
+        <div class="logo">
+            <img src="google.jpg" alt="goole logo" height="92px" width="272px">
+        </div>
+
+        <div class="form">
+            
+            <div>
+                <!---search icon here--->
+                <i class="fas fa-magnifying-glass"></i>
+            </div>
+
+            <div >
+                <input type="text" placeholder="Search google or type a URL">
+            </div>
+
+            <div>
+                <!---microphone icon here--->
+                <i class="fas fa-microphone"></i>
+            </div>
+        </div>
+
+        <div id="recentCon">
+            <div class="recent">
+                <div class="logoCon">
+                    <img class="image" src="fb.jpeg" alt="" height="25px" width="25px">
+                </div>
+                <p>
+                    Facebook
+                </p>
+            </div>
+            <div class="recent">
+                <div class="logoCon">
+                    <img class="image" src="dan.png" alt="" height="25px" width="25px">
+                </div>
+                <p>
+                    Dan.com
+                </p>
+            </div>
+            <div class="recent">
+                <div class="logoCon">
+                    <img class="image" src="github.png" alt="" height="25px" width="25px">
+                </div>
+                <p>
+                    GitHub
+                </p>
+            </div>
+            <div class="recent">
+                <div class="logoCon">
+                    <img class="image" src="gmail.png" alt="" height="20px" width="25px">
+                </div>
+                <p>
+                    Gmail
+                </p>
+            </div>
+            <div class="recent">
+                <div class="logoCon">
+                    <img class="image" src="godaddy.png" alt="" height="25px" width="35px">
+                </div>
+                <p>
+                    GoDaddy
+                </p>
+            </div>
+            <div class="recent">
+                <div class="logoCon">
+                    <img class="image" src="linkedin.png" alt="" height="25px" width="25px">
+                </div>
+                <p>
+                    linkedIn
+                </p>
+            </div>
+            <div class="recent">
+                <div class="logoCon">
+                    <img class="image" src="netnaija.png" alt="" height="25px" width="25px">
+                </div>
+                <p>
+                   www.thenetn...
+                </p>
+            </div>
+            <div class="recent">
+                <div class="logoCon">
+                    <img class="image" src="twitter1.png" alt="" height="25px" width="25px">
+                </div>
+                <p>
+                    https
+                </p>
+            </div>
+            <div class="recent">
+                <div class="logoCon">
+                    <img class="image" src="youtube.png" alt="" height="25px" width="25px">
+                </div>
+                <p>
+                    Youtube.com
+                </p>
+            </div>
+            <div class="recent">
+                <div class="logoCon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <p>
+                    Add shortcut
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
